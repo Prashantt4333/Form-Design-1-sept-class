@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>From Design 1</title>
+        <style> 
+            body{
+                background:#F3E1E3;
+                margin: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            form{
+                height: 450px;
+                width: 60%;
+                margin: 150px auto;
+                border-radius: 15px;
+                overflow: hidden;  
+                box-shadow: 0px 8px 10px 5px rgba(0, 0, 0, 0.2); 
+                clear: both;    
+                text-align: center; 
+            }
+            form > div {
+                width: 50%;
+                float: left;
+                height: 100%;
+            }
+            .white{
+                background: #fff;
+            }
+            .pink{
+                background-image: -webkit-linear-gradient(left, #FF444B,#FF406B);
+                color: #fff;
+                text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            }
+            .icon_ft{
+                margin: 15px 0px;
+                display: inline-block;
+                width: 40px;
+                line-height: 40px;
+                border: 1px solid #303032;
+                border-radius: 40px;
+                color: #303032;
+            }
+            form input[type="text"],form input[type="password"]{
+                width: 80%;
+                padding:10px ;
+                margin: 5px 0px;
+                border: none;
+                background: #EFEFEF;
+            }
+            
+            form input[type="submit"]{
+              cursor: pointer;
+               background: #FF4A27;
+               color: #fff;
+               border: none;
+               padding: 12px 40px;
+               border-radius: 40px;
+
+            }
+            .forget{
+                color: #303032;
+                text-decoration: none;
+                margin-top:30px ;
+            }
+        </style>
+    </head>
+    <body>
+       <form class="myFom">
+             <div class="white">
+                <div style="margin: 20px 20px; ">
+                    <h1 >Login</h1>
+                    <a href="#" class="icon_ft">
+                        <i class="fa-brands fa-facebook-f "></i>
+                    </a>
+                    <a href="#" class="icon_ft">
+                        <i class="fa-brands fa-twitter "></i>
+                    </a>
+                    <p>or use your account</p>
+                    <input type="text" placeholder="Email" name="email" />
+                    <input type="password" placeholder="Password" name="password"  />
+                    <div style="margin: 10px 0px;">
+                        <a href="#" class="forget">Forget your password?</a>
+                    </div>
+                    <div style="margin: 15px 0px;">
+                        <input type="submit" value="LOG IN" name="submit"/>
+                    </div>
+                </div>
+             </div>
+             <div class="pink">
+                <div style="margin: 150px 20px;  ">
+                    <h1>HTML CSS Login Form</h1>
+                    <p>The oldest classical British andoldest classical British and oldest classical British and  Latin writing had little or no space between words </p>
+                </div>
+             </div>
+       </form> 
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </body>
+</html>
